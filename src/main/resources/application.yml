@@ -1,0 +1,30 @@
+server:
+  port: 8083
+
+app:
+  dev_url: http://localhost:8083
+
+external:
+#  base_url: https://ussd-rebirth.free.beeceptor.com
+  base_url: https://countriesnow.space
+
+connection:
+  attempts: 3
+  retry_duration: 1
+  block_timeout: 60
+
+# Currency Conversion Rates
+conversion:
+  rates:
+    EUR:
+      NGN: 493.06
+      UGX: 4.33
+    USD:
+      NGN: 460.72
+      UGX: 739.83
+    JPY:
+      NGN: 3.28
+      UGX: 26.62
+    GBP:
+      NGN: 570.81
+      UGX: 633.48
